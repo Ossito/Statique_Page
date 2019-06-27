@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+/* --- Header Start --- */
+
+.navbar{
+    background: rgba(78, 91, 99, .2) !important;
+    transition: 0.5s;
+}
+
+.navbar.scrolled{
+    background: #000 !important;
+    transition: 0.5s;
+}
+
+.navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #013f7e;
+    transition: 0.8s all;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.8s all;
+}
+
+.navbar-light .navbar-nav .active .nav-link:hover{
+    color: #fff;
+    background-color: #013f7e;
+    transition: 0.8s all;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus 
+{
+    color: #fff;
+    background-color: #013f7e;
+    transition: 0.8s all;
+}
+
+.navbar-brand img{
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 2px;
+}
+
+.navbar-toggler{
+    border: none !important;
+    outline: none !important;
+}
+
+nav .fa-bars{
+    color: #fff;
+    font-size: 46px;
+}
+
+/* --- Header End --- */
+
+
+/* --- Slider Start --- */
+.carousel-inner img{
+    max-height: 635px;
+    width: 100%;
+    background-size: cover !important;
+}
+
+.carousel-caption h5 {
+  text-transform: uppercase;
+  color: rgb(103, 160, 247);
+  font-weight: bolder;
+  letter-spacing: 15px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 2;
+}
+
+.carousel-caption p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  font-size: 20px;
+  text-align: center;
+}
+/* --- Slider End --- */
+
+
+/* --- Subscribe start --- */
+.subscribe{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(102, 76, 76, 0.6);
+    margin-top: 50px;
+}
+
+.subscribe h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.subscribe p{
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.subscribe .input-group{
+    border-radius: 15px;
+    background: #fff;
+    max-width: auto;
+    margin: 10px auto;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.subscribe .file{
+    color: #ff000f;   
+}
+
+.subscribe .form-control{
+    border: none;
+    background: transparent;
+}
+
+.subscribe .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+
+.subscribe .input-group-append{
+    background-image: linear-gradient(to right , #1c03b5 , #5c8bef);
+    border-radius: 15px;
+    max-width: 150px;
+    height: 40px;
+    margin-left: 44%;
+    margin-top: 20px;
+}
+
+.subscribe .button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    margin-left: 22px;
+    font-weight: bold;
+}
+
+.subscribe .input-group-text{
+    background: transparent;
+    border: none;
+    color: rgb(177, 85, 85);
+    font-size: 15px;
+}
+
+.subscribe .btn:focus{
+    box-shadow: none;
+}
+
+/* --- Subscribe End --- */
+
+
+/* --- Footer Start --- */
+#footer{
+    margin-top: 80px;
+    padding: 100px;
+    background-color: #efefef;
+    color: #013f7e;
+}
+
+.footer-logo{
+    width: 80px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+#footer h1{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+#footer p{
+    font-size: 12px;
+    text-align: left;
+}
+
+#footer .city{
+    margin-left: 37px;
+}
+
+#footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+#footer hr{
+    margin-top: 10px;
+}
+
+#footer .fa-heart-o{
+    color: rosybrown;
+    font-size: 17px;
+}
+
+#footer .copyright{
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+}
+/* --- Footer End --- */
+
+#topBtn {
+  position: fixed;
+  bottom: 120px;
+  right: 60px;
+  font-size: 22px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #68b6ce;
+  display: none;
+}
